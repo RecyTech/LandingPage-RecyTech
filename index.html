@@ -1,296 +1,303 @@
-\<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>RecyTech</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-  <script src="https://kit.fontawesome.com/af69a02321.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecyTech</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Enlace a Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+ 
+    </head>
 <body>
-  <nav>
-    <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-      <label class="logo">RETECH</label>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">RecyTech</label>
         <ul>
-          <li><a href="#descargar">Descargar</a></li>
-          <li><a href="#nosotros">Nosotros</a></li>
-          <li><a href="#beneficios">Beneficios</a></li>
-          <li><a href="#suscripcion">Suscribete</a></li>
-          <li><a href="#contactanos">Contáctanos</a></li>
+            <li><a href="#descargar">Descargar</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#beneficios">Beneficios</a></li>
+            <li><a href="#suscripcion">Suscribete</a></li>
+            <li><a href="#contactanos">Contáctanos</a></li>
         </ul>
-  </nav>
-  
-  <section class="main-page">
-    <div class="pText">
-      <div class="form-content">
-        <h1 id="title">Registro</h1>
-        <form>
-          <div class="input-group">
-            <div class="input-field" id="nameInput">
-              <i class="fa-solid fa-user"></i>
-              <input type="text" placeholder="Nombre">
-            </div>
-            <div class="input-field">
-              <i class="fa-solid fa-envelope"></i>
-              <input type="email" placeholder="Correo">
-            </div>
-            <div class="input-field">
-                <i class="fa-solid fa-lock"></i>
-                <input type="password" placeholder="Contraseña">
-            </div>
-            <a href="#">¿Olvidate tu contraseña?</a>
-          </div>
-          <div class="btn-field">
-            <button id="singUp" type="button">Registro</button>
-            <button id="singIn" type="button" class="desable">Login</button>
-          </div>
-        </form>
-
-      </div>
-      
-
-    </div>
-    <div class="pImageWrap">
-      <img class="pImage" src="img/mainPage1.png">
-    </div>
-  </section>
-  
-  <section id="descargar" class="download-page">
-    <div class="wrap-download-text">
-      <p class="dText">Convierte tus componentes electrónicos en desuso en oportunidades</p>
-      <div class="botones">
-        <a href="https://play.google.com/store/games?device=windows" target="_blank">
-            <img src="https://www.gamership.com.mx/img/disponiblegoogleplay.png" alt="Descargar en Play Store" style="width:244px; height:auto;">
-        </a>
+    </nav>
     
-        <a href="https://www.apple.com/la/app-store/" target="_blank">
-            <img src="https://www.talkatone.com/wp-content/themes/talkatone/img/get-app-app-store.png" alt="Descargar en App Store" style="width:220px; height:auto;">
-        </a>
-        </div>
-  </div>
-  <div class="wrap-dImage">
-      <img class="dImage" src="img/Group 2.png">
-  </div>
-  </section>
+    <section class="main-page">
+        <div class="pText">
+            <div class="form-content">
+                <h1 id="title">Registro</h1>
+                <form>
+                    <div class="input-group">
+                        <div class="input-field" id="nameInput">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" placeholder="Nombre">
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-solid fa-envelope"></i>
+                            <input type="email" placeholder="Correo">
+                        </div>
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" placeholder="Contraseña">
+                        </div>
+                        <a href="#">¿Olvidate tu contraseña?</a>
+                    </div>
+                    <div class="btn-field">
+                        <button id="singUp" type="button">Registro</button>
+                        <button id="singIn" type="button" class="desable">Login</button>
+                    </div>
+                </form>
 
- <!-- NOSOTROS -->
- <section class="nosotros" id="nosotros">
-  <h1>Team members</h1>
-  <h3>Conoce un poco sobre los integrantes de nuestra startup Iconic</h3>
-  <div class="nosotros-container">
-    <div class="nosotros-card">
-      <img src="https://w7.pngwing.com/pngs/1008/377/png-transparent-computer-icons-avatar-user-profile-avatar-heroes-black-hair-computer.png" alt="Salvador Chamorro" />
-      <h3>Salvador Chamorro</h3>
-      <p>
-        Poner descripcion
-      </p>
-      <div class="redes-sociales">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </div>
-    <div class="nosotros-card">
-      <img src="https://w7.pngwing.com/pngs/1008/377/png-transparent-computer-icons-avatar-user-profile-avatar-heroes-black-hair-computer.png" alt="Omar Morales" /> 
-      <h3>Omar Morales</h3>
-      <p>
-        Poner descripcion
-      </p>
-      <div class="redes-sociales">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </div>
-    <div class="nosotros-card">
-      <img src="https://w7.pngwing.com/pngs/1008/377/png-transparent-computer-icons-avatar-user-profile-avatar-heroes-black-hair-computer.png" alt="Ramon Jorge" />
-      <h3>Ramon Jorge</h3>
-      <p>
-        Poner descripcion
-      </p>
-      <div class="redes-sociales">
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </div>
-    <div class="nosotros-container">
-      <div class="nosotros-card">
-        <img src="/./images/Cristhofer.jpg" alt="Cristhofer Palomino"/>
-        <h3>Cristhofer Palomino</h3>
-        <p>
-          Estudiante de Ing Software me apasiona todo lo relacionado a la
-          tecnología, los avances tecnológicos y los procesos de arquitectura
-          para el desarrollo de software.
-        </p>
-        <div class="redes-sociales">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+            </div>
+            
 
-  <section id="MisionVision" class="about-us-mv">
-    <div class="banner-wrap">
-      <img class="banner" src="img/Rectangle.png">
-    </div>
-    <div class="mision-wrap">
-      <div class="mv-title-wrap">
-        <h1 class="title-mv">Misión</h1>
-      </div>
-      <div class="mv-text-wrap">
-        <p class="text-mv" id="mision">Transformar la gestión de electrodomésticos desechados promoviendo la sostenibilidad y la reutilización inteligente.</p>
-      </div>
-    </div>
-    <div class="vision-wrap">
-      <div class="mv-title-wrap">
-        <h1 class="title-mv">Visión</h1>
-      </div>
-      <div class="mv-text-wrap">
-        <p class="text-mv" id="vision">Un futuro donde los dispositivos electrónicos desechados se conviertan en valiosos recursos, que se reciclan y reutilizan eficientemente</p>
-      </div>
-    </div>
-  </section>
-  <section id="beneficios" class="benefits-page">
-    <div class="benefits-title-wrap">
-      <h1 class="benefits-title">Beneficios</h1>
-    </div>
-    <!-- Slider main container -->
-    <div class="swiper">
-  <!-- Additional required wrapper -->
-      <div class="swiper-wrapper">
-      <!-- Slides -->
-        <div class="swiper-slide">
-          <div class="slide-content-wrap">
-            <div class="slide-content-img">
-              <img src="img/slide-1-img.png">
-            </div>
-            <div class="slide-content-text">
-              <p>Tendrás una forma sencilla y responsable de deshacerse de dispositivos antiguos</p>
-            </div>
-          </div>
         </div>
-        <div class="swiper-slide">
-          <div class="slide-content-wrap">
-            <div class="slide-content-img">
-              <img src="img/slide-2-img.png">
-            </div>
-            <div class="slide-content-text">
-              <p>Acceso a componentes reacondicionados de calidad a precios asequibles.</p>
-            </div>
-          </div>
+        <div class="pImageWrap">
+            <img class="pImage" src="images/logo.png" alt ="logo">
         </div>
-        <div class="swiper-slide">
-          <div class="slide-content-wrap">
-            <div class="slide-content-img">
-              <img src="img/slide-3-img.png">
+    </section>
+    
+    <section id="descargar" class="download-page">
+        <div class="wrap-download-text">
+            <p class="dText">Transforma tus dispositivos electrónicos obsoletos en nuevas oportunidades para otros.</p>
+            <div class="botones">
+                <a href="https://play.google.com/store/games?device=windows" target="_blank">
+                    <img src="https://www.gamership.com.mx/img/disponiblegoogleplay.png" alt="Descargar en Play Store" style="width:244px; height:auto;">
+                </a>
+            
+                <a href="https://www.apple.com/la/app-store/" target="_blank">
+                    <img src="https://www.talkatone.com/wp-content/themes/talkatone/img/get-app-app-store.png" alt="Descargar en App Store" style="width:220px; height:auto;">
+                </a>
             </div>
-            <div class="slide-content-text">
-              <p>Seguridad y protección de datos guardados en los dispositivos móviles, nos aseguraremos de que la información guardada sea eliminada antes de darles un segundo uso en el mercado. </p>
-            </div>
-          </div>
         </div>
-        <div class="swiper-slide">
-          <div class="slide-content-wrap">
-            <div class="slide-content-img">
-              <img src="img/slide-4-img.png">
-            </div>
-            <div class="slide-content-text">
-              <p>Tendras un porcentaje de la venta del producto reacondicionado. El porcentaje dependera del estado del producto</p>
-            </div>
-          </div>
+        <div class="wrap-dImage">
+            <img class="dImage" src="images/Reciclaje.png" alt="Reciclaje image">
         </div>
-      </div>
+    </section>
 
-      <div class="swiper-pagination"></div>
-      </div>
-  </section>
-  <!-- Suscription -->
-  <section class="home" id="suscripcion">
-    <div class="home__container">
-      <div class="home__data">
-        <h1 class="home__description">
-          Unidos por el reciclaje, por un mundo menos contaminado
-          <span>¡Suscríbete ya!</span>
-        </h1>
-        <p>
-          "Únete a RecyTech, donde convergemos en el conocimiento y nos dirigimos hacia un futuro sostenible con pasión y éxito. Nuestra plataforma ofrece un enfoque innovador hacia la remanufacturación de productos reciclados. Con RecyTech, los usuarios pueden participar en el ciclo de vida de los productos al entregar sus artículos dañados para su reciclaje y venta en nuestra página web. Además, los clientes tienen la oportunidad de adquirir productos reciclados a precios asequibles. Al suscribirte, podrás contribuir al reciclaje de manera más frecuente y sostenible. Únete hoy mismo a RecyTech y forma parte de una experiencia educativa y ecológica única."
-        </p>
-        <a href="#suscripciones" class="home__button">Prueba Gratis</a>
-      </div>
-    </div>
-    <div class="tables">
-      <div class="home__table table">
-        <div class="plan">
-          <h2 class="plan__title">Plan Gratuito</h2>
-          <h3 class="plan__value">0 Soles/mes</h3>
-          <ul class="plan__features">
-            <li>Reciclaje de productos</li>
-            <li>Límite de donación de productos al mes: 3</li>
-            <li>Recibir servicio de Remanufacturación</li>
-            <li>Seguridad garantisada en el servicio de envio</li>
-          </ul>
-          <a href="#" class="subscribe__button">Suscribirse</a>
+    <!-- NOSOTROS -->
+    <section class="nosotros" id="nosotros">
+        <h1>Team members</h1>
+        <h3>Conoce un poco sobre los integrantes de nuestra startup Iconic</h3>
+        <div class="nosotros-container">
+            <div class="nosotros-card">
+                <img src="https://w7.pngwing.com/pngs/1008/377/png-transparent-computer-icons-avatar-user-profile-avatar-heroes-black-hair-computer.png" alt="Salvador Chamorro" />
+                <h3>Salvador Chamorro</h3>
+                <p>
+                  Soy un ingeniero de software apasionado con una habilidad natural para resolver problemas. Me destaco por mi enfoque meticuloso y mi creatividad, lo que me convierte en un activo valioso para cualquier equipo de desarrollo.
+                </p>
+                <div class="redes-sociales">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="nosotros-card">
+                <img src="https://w7.pngwing.com/pngs/1008/377/png-transparent-computer-icons-avatar-user-profile-avatar-heroes-black-hair-computer.png" alt="Omar Morales" /> 
+                <h3>Omar Morales</h3>
+                <p>
+                  Como estudiante de ingeniería de software, me apasiona la innovación y el trabajo colaborativo. Siempre estoy buscando nuevas formas de ayudar a las personas a través de soluciones tecnológicas creativas y efectivas.
+                </p>
+                <div class="redes-sociales">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="nosotros-card">
+                <img src="https://w7.pngwing.com/pngs/1008/377/png-transparent-computer-icons-avatar-user-profile-avatar-heroes-black-hair-computer.png" alt="Ramon Jorge" />
+                <h3>Ramon Jorge</h3>
+                <p>
+                  Me considero un ingeniero de software comprometido y dedicado, con un fuerte sentido de la responsabilidad. Me destaco por mi atención al detalle 
+                  y mi capacidad para trabajar en equipo, lo que me convierte en un colaborador confiable en cualquier proyecto de desarrollo
+                </p>
+                <div class="redes-sociales">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="nosotros-container">
+                <div class="nosotros-card">
+                    <img src="https://w7.pngwing.com/pngs/1008/377/png-transparent-computer-icons-avatar-user-profile-avatar-heroes-black-hair-computer.png" alt="Cristhofer Palomino"/>
+                    <h3>Cristhofer Palomino</h3>
+                    <p>
+                        Estudiante de Ing Software me apasiona todo lo relacionado a la
+                        tecnología, los avances tecnológicos y los procesos de arquitectura
+                        para el desarrollo de software.
+                    </p>
+                    <div class="redes-sociales">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="home__table table">
-        <div class="plan">
-          <h2 class="plan__title">Plan Mensual</h2>
-          <h3 class="plan__value">15 Soles/mes</h3>
-          <ul class="plan__features">
-            <li>Reciclaje de productos</li>
-            <li>Límite de donación de productos al mes: Sin límite</li>
-            <li>Recibir un % más de ganancia en la Remanufacturación</li>
-            <li>Eliminar la publicidad</li>
-          </ul>
-          <a href="#" class="subscribe__button">Suscribirse</a>
+    </section>
+
+    <section id="MisionVision" class="about-us-mv">
+        
+        <div class="mision-wrap">
+            <div class="mv-title-wrap">
+                <h1 class="title-mv">Misión</h1>
+            </div>
+            <div class="mv-text-wrap">
+                <p class="text-mv" id="mision">En RecyTech, nos dedicamos a transformar la gestión de desechos electrónicos con una solución inclusiva y sostenible. Nuestra plataforma facilita el reciclaje y reutilización de dispositivos, promoviendo un futuro más verde y equitativo.</p>
+            </div>
         </div>
-      </div>
-    </div>
-  </section>
-  
-  
+        <div class="vision-wrap">
+            <div class="mv-title-wrap">
+                <h1 class="title-mv">Visión</h1>
+            </div>
+            <div class="mv-text-wrap">
+                <p class="text-mv" id="vision">En RecyTech, trabajamos por un mundo donde la tecnología se reutiliza de manera sostenible, eliminando barreras económicas y promoviendo la economía circular para un impacto ambiental positivo.</p>
+            </div>
+        </div>
+    </section>
 
-  <section id="contactanos" class="contact-page">
-    <div class="contact-title-wrap">
-      <h1 class="contact-title">Soporte</h1>
-    </div>
-    <div class="contact-text-wrap">
-      <img class="mail-img" src="img/contact-1.png">
-      <p class = "contact-info">retech@gmail.com</p>
-    </div>
-    <div class="contact-text-wrap">
-      <img class="phone-img" src="img/contact-2.png">
-      <p class = "contact-info">+51 986 542 125</p>
-    </div>
-  </section>
+    
+    <section id="beneficios" class="benefits-page">
+        <div class="benefits-title-wrap">
+            <h1 class="benefits-title">Beneficios</h1>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="slide-content-wrap">
+                        <div class="slide-content-text">
+                            <p>Tendrás una forma sencilla y responsable de deshacerse de dispositivos antiguos y brindarles oportunidad a los menos afortunados</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-content-wrap">
+                        <div class="slide-content-text">
+                            <p>Acceso a componentes electronicos de calidad a precios asequibles y posibilidad de venta de estos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-content-wrap">
+                        <div class="slide-content-text">
+                            <p>Nos comprometemos a salvaguardar la seguridad y privacidad de los datos almacenados en tus dispositivos móviles. Garantizamos que cualquier información almacenada será eliminada de forma segura antes de poner los dispositivos en el mercado para su reutilización.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="slide-content-wrap">
+                        <div class="slide-content-text">
+                            <p>
+                              Recibirás una parte de las ganancias generadas por la venta del producto reacondicionado. El porcentaje que te corresponde estará determinado por el estado actual del producto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-  <footer>
-    <div class="contact-info-wrap">
-      <ul class="footer-info">
-        <li>Aplica terminos y condiciones</li>
-        <li>FAQ</li>
-        <li>Política de privacidad</li>
-        <li>Los Zafiros 2023 - San Juan de Lurigancho - Lima - Perú</li>
-        <li class="last-item">Copyright © 3R.com.pe Todos los derechos reservados.</li>
-      </ul>
-      <label class="logo-footer">RETECH</label>
-    </div>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-  <script src="js/swiper.js"></script>
-  <script src="js/scripts.js"></script>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    
+
+    <!-- Suscription -->
+    <section class="home" id="suscripcion">
+        <div class="home__container">
+            <div class="home__data">
+                <h1 class="home__description">
+                    Unidos por el reciclaje, por un mundo menos contaminado
+                    <span>¡Suscríbete ya!</span>
+                </h1>
+                <p>
+                    "Únete a RecyTech, donde convergemos en el conocimiento y nos dirigimos hacia un futuro sostenible con pasión y éxito. Nuestra plataforma ofrece un enfoque innovador hacia la remanufacturación de productos reciclados. Con RecyTech, los usuarios pueden participar en el ciclo de vida de los productos al entregar sus artículos dañados para su reciclaje y venta en nuestra página web. Además, los clientes tienen la oportunidad de adquirir productos reciclados a precios asequibles. Al suscribirte, podrás contribuir al reciclaje de manera más frecuente y sostenible. Únete hoy mismo a RecyTech y forma parte de una experiencia educativa y ecológica única."
+                </p>
+                <a href="#suscripciones" class="home__button">Prueba Gratis</a>
+            </div>
+        </div>
+        <div class="tables">
+            <div class="home__table table">
+                <div class="plan">
+                    <h2 class="plan__title">Plan Gratuito</h2>
+                    <h3 class="plan__value">0 Soles/mes</h3>
+                    <ul class="plan__features">
+                        <li>Reciclaje de productos</li>
+                        <li>Límite de donación de productos al mes: 3</li>
+                        <li>Recibir servicio de Remanufacturación</li>
+                        <li>Seguridad garantisada en el servicio de envio</li>
+                    </ul>
+                    <a href="#" class="subscribe__button">Suscribirse</a>
+                </div>
+            </div>
+            <div class="home__table table">
+                <div class="plan">
+                    <h2 class="plan__title">Plan Mensual</h2>
+                    <h3 class="plan__value">15 Soles/mes</h3>
+                    <ul class="plan__features">
+                        <li>Reciclaje de productos</li>
+                        <li>Límite de donación de productos al mes: Sin límite</li>
+                        <li>Recibir un % más de ganancia en la Remanufacturación</li>
+                        <li>Eliminar la publicidad</li>
+                    </ul>
+                    <a href="#" class="subscribe__button">Suscribirse</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contactanos" class="contact-page">
+        <div class="contact-title-wrap">
+            <h1 class="contact-title">Soporte</h1>
+        </div>
+        <div class="contact-text-wrap">
+            <img class="mail-img" src="images/Correo.png"alt="Correo">
+            <p class="contact-info">recytech@gmail.com</p>
+        </div>
+        <div class="contact-text-wrap">
+            <img class="phone-img" src="images/Telefono.png" alt="Telefono">
+            <p class="contact-info">+51 999 999 999</p>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="contact-info-wrap">
+            <ul class="footer-info">
+                <li>Terminos de uso</li>
+                <li>Preguntas frecuentes</li>
+                <li>Política de cookies</li>
+                <li>Calle Los Olivos 432, Miraflores - Lima - Perú</li>
+                <li>Derechos de autor © 2024 RECYTECH. Derechos reservados.</li>
+            </ul>
+            <label class="logo-footer">RECYTECH</label>
+        </div>
+    </footer>
+
+    <!-- Script de Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    </script>
 </body>
 </html>
